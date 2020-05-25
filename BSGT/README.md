@@ -4,7 +4,7 @@
 This is a demonstration script. It shows how to estimate a time series forecasting model and generate forecasts in Python (NumPyro). More specifically, we will replicate the Seasonal Global Trend (SGT) model from the Rlgt package in R. The time series data that we will use for this demonstration is the popular Airline Passenger dataset, which shows the nonlinear trend and heteroscedastic seasonality. 
 
 ### Model
-The models can be seen as extensions of following Exponential Smoothing models: Holt-Winters model. The main differences are as follows:
+The models can be seen as an extension of the Exponential Smoothing models: Holt-Winters model. The main differences are as follows:
 - the nonlinear global trend, that spans damped, linear, to exponential trends.
 - Student-t distribution of error
 - function for the error size, so the model is heteroscedastic
