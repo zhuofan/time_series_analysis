@@ -15,6 +15,9 @@ The nonlinear global trend allows to model well a frequent situation in business
 ### Model Estimation and Forecasting
 A more detailed explanation for SGT model can be found in this vignette from the authors of the Rlgt package. The model estimation and forecasting are based on the Bayesian regression framework in NumPyro. The Airline Passenger dataset is used to test the full potential of the BSGT model. 
 
+### Conclusion
+The BSGT model is working properly even without log or Box-Cox transformation. It successfully captures the heteroscedastic seasonality and the nonlinear trend. 
+
 ### Model Limitations
 There are two main limitations of the BSGT model:
 1. The model only takes and forecasts non-negative values. This means this proper transformations should be performed before applying this model for each time series, which significantly limits the application of this model. 
